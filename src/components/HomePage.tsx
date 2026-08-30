@@ -258,8 +258,8 @@ const Hero = () => {
           className="relative z-10"
         >
           <img
-            src="/images/cute_fluffy_cat_sleeping_on_a_cloud.png"
-            alt="Sleeping zen cat on a cloud"
+            src="/images/febrianes86-book-4292.glb"
+            alt="red book with star on cover"
             className="h-auto w-full transform rounded-[3rem] shadow-2xl transition-transform duration-700 hover:rotate-0 md:rotate-3"
           />
 
