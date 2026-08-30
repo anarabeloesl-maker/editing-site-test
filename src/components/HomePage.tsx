@@ -87,7 +87,7 @@ const Navigation = () => {
             data-testid="button-join-nav"
             className="font-heading bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-2 font-bold shadow-lg transition-all hover:scale-105 hover:shadow-xl"
           >
-            Join the Clowder
+            Get in Touch
           </button>
         </a>
       </div>
