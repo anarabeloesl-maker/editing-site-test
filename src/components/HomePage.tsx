@@ -159,7 +159,7 @@ const Navigation = () => {
                     data-testid="button-join-mobile"
                     className="font-heading bg-primary text-primary-foreground hover:bg-primary/90 w-full rounded-full py-4 font-medium shadow-lg transition-all hover:shadow-xl"
                   >
-                    Join the Clowder
+                    Get a Quote
                   </button>
                 </motion.div>
               </a>
@@ -188,12 +188,12 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="font-hand text-primary mb-4 inline-block -rotate-2 text-2xl">
-            Welcome home, human!
+            Improve your book or document!
           </span>
           <h1 className="font-heading text-foreground mb-6 text-5xl leading-[1.1] font-bold md:text-7xl">
-            Let's find your inner{' '}
+            Let's make your{' '}
             <span className="text-primary relative inline-block">
-              Zen
+              Book
               <svg
                 className="text-accent absolute -bottom-1 left-0 -z-10 h-3 w-full"
                 viewBox="0 0 100 10"
@@ -208,11 +208,10 @@ const Hero = () => {
               </svg>
             </span>{' '}
             <br />
-            with a cat!
+            the best it can be!
           </h1>
           <p className="text-muted-foreground max-w-md text-lg leading-relaxed md:text-xl">
-            The purrfect place to disconnect from the noise and reconnect with
-            what matters: peace, presence, and gentle purrs.
+            High-quality content editing, copyediting, and proofreading services at affordable rates.
           </p>
 
           {/* Trust Badges */}
@@ -355,30 +354,30 @@ const Features = () => {
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 space-y-4 text-center">
           <span className="font-hand text-primary text-xl">
-            Why cats are gurus
+            Services we offer
           </span>
           <h2 className="font-heading text-foreground text-4xl font-bold md:text-5xl">
-            The Way of the Meow
+            Levels of Editing
           </h2>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <FeatureCard
-            title="Master of Chill"
+            title="Content Editing"
             desc="Learn the ancient art of doing absolutely nothing and looking fabulous while doing it."
             img="/images/meditating_cat_illustration.png"
             delay={0.1}
             testId="card-feature-chill"
           />
           <FeatureCard
-            title="Playful Spirit"
+            title="Copyediting"
             desc="Rediscover your inner kitten. Chase dreams (and butterflies) with reckless abandon."
             img="/images/playful_cat_illustration.png"
             delay={0.2}
             testId="card-feature-playful"
           />
           <FeatureCard
-            title="Soul Nourishment"
+            title="Proofreading"
             desc="Feed your heart with unconditional love, head bumps, and the occasional slow blink."
             img="/images/cat_with_food_illustration.png"
             delay={0.3}
